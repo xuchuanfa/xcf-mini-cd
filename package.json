@@ -3,7 +3,7 @@
 	"name": "mini-cd",
 	"description": "微信小程序自动化上传",
 	"displayName": "微信小程序一键打包并上传到微信后台",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "coderxcf",
 	"engines": {
 		"HBuilderX": "^2.7.0"
@@ -17,13 +17,16 @@
 		"onCommand:xcf.mini.cd.submit"
 	],
 	"contributes": {
-		"commands": [{
-			"command": "xcf.mini.cd.submit",
-			"title": "上传微信小程序"
-		},{
-			"command": "xcf.mini.cd.upload",
-			"title": "一键上传微信小程序"
-		}],
+		"commands": [
+			{
+				"command": "xcf.mini.cd.submit",
+				"title": "上传微信小程序"
+			},
+			{
+				"command": "xcf.mini.cd.upload",
+				"title": "一键上传微信小程序"
+			}
+		],
 		"menus": {
 			"menubar/publish": [
 				{
